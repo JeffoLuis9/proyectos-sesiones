@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /*font-family: tahoma;*/
+    background: darkgray;
+}
+/*ENCABEZADO INICIO*/
+header{
+    width: 1000px;
+    background: black;
+    font-family: arial;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+h1{ 
+    float: left;
+    color: white;
+    font-size: 50px;
+}
+#redes{
+    float: right;
+    padding-top: 20px;
+}
+#redes img{
+    width: 30px;
+}
+nav{
+    width: 1000px;
+    background: red;
+    font-family: arial;
+    font-weight: bold;
+    margin: auto;
+    text-align: left;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+/*ENCABEZADO FIN*/
+/*IMAGEN PRINCIPAL*/
+#principal{
+    width: 1000px;
+    margin: auto;
+    border: 10px solid white;
+    margin-top: 10px;
+}
+/*Estilos section*/
+section{
+    width: 1000px;
+    margin: auto;
+    margin-top: 10px ;
+    overflow: hidden;
+}
+article{
+    float: left;
+    width: 650px;
+    background-color: #A7999A;
+    margin: auto;
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+article h2{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 30px;
+    color: #6B5859;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid red;
+}
+#imagen01{
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+article p{
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px;
+}
+#imagen02{
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+aside{
+    float: right;
+    width: 300px;
+    background: darkgray;
+    margin: auto;
+}
+aside h3{
+    text-align: center;
+    color: white;
+    background: #1D1919;
+    padding: 15px;
+}
+aside p{
+    text-align: justify;
+    font-size: 15px;
+    padding: 10px;
+}
+aside img{
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
+}
+footer{
+    width: 1000px;
+    margin: auto;
+    background: #2E2A2B;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}

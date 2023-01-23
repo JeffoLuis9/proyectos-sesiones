@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: tahoma;
+    background-color: darkcyan;
+}
+header{
+    width: 100%;
+    background-color: rgb(12, 12, 95);
+    overflow: hidden;
+}
+.cabecera{
+    width: 1000px;
+    margin: auto;    
+}
+.logo img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+.redes img{
+    width: 40px;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 100px;
+}
+.botonera{
+    background: blue;
+}
+.botonera ul{
+    text-align: center;
+    list-style: none;
+}
+.botonera li{
+    display: inline-block;
+    padding: 20px;
+}
+.botonera a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;  
+}
+.banner{
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.banner img{
+    width: 1000px;
+}
+.tablas-servicio{
+    padding-left: 50px;
+}
+.articulo{
+    width: 1000px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+}
+.articulo h3{
+    color: rgb(92, 82, 82);
+    font-size: 30px;
+}
+.articulo img{
+    width: 250px;
+
+}
+.articulo p{
+    padding-right: 45px;
+    text-align: justify;
+    font-size: 10px;
+    color: blue;
+}
+.boton {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.boton a{
+    text-decoration: none;
+    background: rgb(18, 44, 197);
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
+.boton a:hover{
+    background-color: green;
+}
+footer{
+    background-color: darkslateblue;
+    text-align: center;
+    padding: 10px;
+}
+footer h1{
+    color: darkgray;
+}
+footer p{
+    color: white;
+    line-height: 20px;
+}

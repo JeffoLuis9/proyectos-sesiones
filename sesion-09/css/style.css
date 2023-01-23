@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: tahoma;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+    background-color: darkgrey;
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    float: left;
+    padding: 10px;
+}
+.botonera{
+    float: right;
+}
+.botonera ul{
+    list-style: none;
+}
+.botonera li{
+    display: inline-block;
+}
+.botonera a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: white;
+}
+.banner{
+    position: relative;
+    background: url(../img/webs.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+}
+.cont-banner{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    text-align: center;
+}
+.cont-banner h2{
+    color: white;
+}
+.cont-banner p{
+    color: white;
+    text-align: justify;
+    line-height: 30px;
+}
+.primera-parte{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.segunda-parte{
+    width: 80%;
+    margin: 40px auto;
+    overflow: hidden;
+}
+.imagen{
+    width: 60%;
+    float: left;
+}
+.imagen img{
+    width: 100%;
+}
+.texto{
+    width: 35%;
+    float: right;
+}
+.texto h3{
+    margin: 20px auto;
+}
+.texto p{
+    line-height: 30px;
+}
+.tipos-asides{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tipos-asides img{
+    width: 250px;
+    height: 150px;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+    margin: auto;
+}
+.pie-pagina{
+    width: 80%;
+    margin: auto;
+}
+footer p{
+    color: white;
+}
+@media only screen and (max-width:480px) {
+    h1{
+        text-align: center;
+    }
+    .cont-banner{
+        width: 90%;
+    }
+    .primera-parte, .segunda-parte{
+        width: 90%;
+    }
+    .imagen,.texto{
+        float: none;
+        width: 98%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:980px) {
+    h1{
+        text-align: center;
+    }
+    .cont-banner{
+        width: 90%;
+    }
+}

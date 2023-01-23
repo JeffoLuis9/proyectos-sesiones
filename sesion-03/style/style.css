@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: #9C9696;
+}
+header{
+    width: 1000px;
+    background: #193211;
+    margin: auto;
+    
+}
+header h1{
+    color: white;
+    padding: 0px;
+}
+header h2{
+    color: yellow;
+}
+#izq-perseo01{
+    margin: 10px;
+    width: 210px;
+    height: 310px;
+    float: left;
+}
+section{
+    width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 16px;
+}
+#dech-perseo02{
+    margin: 10px;
+    width: 210px;
+    height: 350px;
+    float: right;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: yellowgreen;
+}
+footer{
+    width: 1000px;
+    height: 90px;
+    margin: auto;
+    background: #193211;
+}
+footer p{
+    text-align: center;
+    font-size: 25px;
+    color: yellowgreen;
+    padding: 0px;
+}
+nav{
+    text-align: center;
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}

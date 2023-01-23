@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #56753D;
+}
+header{
+    width: 1000px;
+    margin: auto;
+    background: #4C3518;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+}
+#logo img{
+    width: 90px;
+    float: left;
+    margin-left: 50px;
+}
+h1{
+    font-family: tahoma;
+    color: white;
+    position: relative;
+}
+.botones{
+    position:absolute;
+	right:0px;
+	top:20px;
+	font-size:24px;
+	font-weight:bold;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	border-radius:50%;
+	text-align: center;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+#c{
+    background: red;
+    right: 190px;
+}
+#b{
+    background: green;
+    right: 100px;
+}
+#a{
+    background: yellow;
+    right: 10px;
+}
+#inicio-pagina{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    background-color: blue;
+}
+#inicio-pagina ul{
+    list-style: none;
+}
+#inicio-pagina li{
+    display: inline-block;
+}
+#inicio-pagina a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+#inicio-pagina a:hover{
+    background: black;
+    color: yellow;
+}
+/*estilos de section*/
+#primer-section{
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+    background: skyblue;
+}
+#primer-section h2{
+    text-align: center;
+    color: blue;
+    padding: 10px;
+}
+#primer-section p{
+    text-align: justify;
+    font-size: 18px;
+    color: #625B5B;
+}
+#imagen00{
+    width: 100%;
+}
+#segundo-section{
+    width: 980px;
+    margin: auto;
+    padding: 10px;
+    background: #8B5A12;
+    overflow: hidden;
+}
+#segundo-section h2{
+    text-align: left;
+    color: #3A3535;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+#segundo-section p{
+    text-align: justify;
+    color: white;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+#imagen01{
+    float: right;
+    height: 200px;
+    padding: 10px;
+}
+footer{
+    width: 1000px;
+    margin: auto;
+    background: #000000;
+	background:#4C3518;
+    padding: 8px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+#fin-pagina{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+#fin-pagina ul{
+    list-style: none;
+}
+#fin-pagina li{
+    display: inline-block;
+}
+#fin-pagina a{
+    text-decoration: none;
+    color: yellow;
+}
+/*segunda pagina*/
+#mision-vision{
+    width: 1000px;
+    margin: auto;
+    font-family: tahoma;
+    background: skyblue;
+    overflow: hidden;
+    padding: 10px;
+}
+#mision-vision article{
+    width: 460px;
+    float: left;
+    padding: 10px;
+}
+#mision-vision article h1{
+    text-align: center;
+    color: blue;
+}
+#mision-vision article p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 25px;
+    color: #625B5B;
+}
+#imagen02{
+    text-align: center;
+}
+#imagen02 img{
+    width:100%;
+}
+#mision-vision aside{
+    width: 460px;
+    float: right;
+    padding: 10px;
+}
+#imagen03{
+    text-align: center;
+}
+#imagen03 img{
+    width: 300px;
+    border-radius: 50%;
+}
+#mision-vision aside h1{
+    text-align: left;
+    color: #625B5B;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#mision-vision aside p{
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    color: #625B5B;
+    margin-bottom: 20px;
+}
+#mision-vision h3{
+    color: #625B5B;
+    margin-bottom: 20px;
+}
+#caracteristicas-web{
+    color: #625B5B;
+}
+/*Tercera pagina*/
+#servicios{
+    width: 1000px;
+    margin: auto;
+    background: skyblue;
+    padding: 10px;
+    overflow: hidden;
+}
+#servicios h2{
+    text-align: center;
+    color: blue;
+}
+#servicios p{
+    text-align: justify;
+    color: #625B5B;
+}
+#tipos-servicios{
+    width: 950px;
+    margin: auto;
+}
+#tipos-servicios h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#tipos-servicios li{
+    list-style: none;
+    width: 310px;
+    float: left;
+    padding-right: 20px;
+}
+#imagen04 img{
+    width: 280px;
+}
+#imagen05 img{
+    width: 280px;
+}
+#imagen06 img{
+    width: 280px;  
+}
+/*Cuarta pagina*/
+#contactanos{
+    width: 1000px;
+    font-family: tahoma;
+    margin: auto;
+    background: skyblue;
+    padding: 10px;
+    overflow: hidden;
+}
+#contactanos h1{
+    /*color: #625B5B;*/
+    color: #3A3535;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#contactanos h2{
+    color: #625B5B;
+    font-size: 19px;
+}
+#horario-3-4-años{
+    width: 650px;
+    text-align: center;
+    margin:30px 0px 30px 200px;
+    border: 2px solid #0038FF;
+}
+#horario-3-4-años td{
+    color: #625B5B;
+    padding: 10px;
+}
+#horario-5-6-años{
+    width: 650px;
+    text-align: center;
+    margin:30px 0px 30px 200px;
+    border: 2px solid #0038FF;
+}
+#horario-5-6-años td{
+    color: #625B5B;
+    padding: 10px;
+}
+#mapa{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#video-niños-felices{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
