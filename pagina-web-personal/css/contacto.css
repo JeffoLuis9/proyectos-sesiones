@@ -1,0 +1,80 @@
+.contenido-contactos{
+    width: 100%;
+    background-color: rgb(209, 209, 209);
+    overflow: hidden;
+}
+.contenido-contactos h2{
+    margin-top: 40px;
+}
+.contactos{
+    width: 100%;
+    padding: 20px;
+}
+.imagen-contacto{
+    width: 60%;
+    float: left;
+}
+.img-contacto{
+    width: 100%;
+    height: 480px;
+}
+.formulario-contactos{
+    width: 38%;
+    float: right;
+}
+.formulario-contactos form{
+    width: 100%;
+    border: 6px solid white;
+    padding: 10px;
+    
+}
+input[type="text"], input[type="email"], input[type="number"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: 0;
+    border: 1px solid #fccb00;
+}
+textarea{
+    width: 100%;
+}
+input[name="envio"] {
+    width: 30%;
+    height: 35px;
+    background: #fccb00;
+    border: 0;
+    border-radius: 4px;
+    color: #2E009F;
+    cursor: pointer;
+    display: block;
+    margin:20px auto;
+}
+footer p{
+    margin: 20px;
+    text-align:  center;
+}
+/*mediaqueris*/
+@media only screen and (max-width:480px) {
+    .imagen-contacto{
+        width: 100%;
+        text-align: center;    
+        float: none;
+    }
+    .formulario-contactos{
+        width: 100%;
+        float: none;
+    }
+}
+@media only screen and (max-width:980px) {
+    .imagen-contacto{
+        width: 100%;    
+        float: none;
+    }
+    .formulario-contactos{
+        width: 100%;
+        float: none; 
+    }
+}

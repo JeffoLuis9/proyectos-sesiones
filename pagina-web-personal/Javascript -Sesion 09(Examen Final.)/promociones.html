@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Servicios Turisticos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <!--"cabeza navbar navbar-expand-lg navbar-dark  fixed-top"-->
+        <nav class="cabeza navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" width="250px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end " id="navbarNavDropdown">
+                <ul class="navbar-nav" >
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html ">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="promociones.html">Promociones</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Servicios
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="traslados.html">Traslados</a></li>
+                      <li><a class="dropdown-item" href="guiatrabajo.html">Guia de Trabajo</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      City Tours
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">City Tours Lima</a></li>
+                      <li><a class="dropdown-item" href="#">Lima y Paracas</a></li>
+                      <li><a class="dropdown-item" href="#">Lima - Paracas e Ica</a></li>
+                      <li><a class="dropdown-item" href="#">Lima - Paracas - Ica y Nazca</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Galeria de Fotos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contáctenos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>        
+    </header>
+
+    <div class="container p-5 mt-5 overflow-hidden">
+      <h1 class="p-2">Nuestras Promociones</h1>  
+      <div class="row d-flex justify-content-around mt-5 mb-5">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xl promocion">
+                <img src="img/lima.jpg" alt="" width="">
+                <div class="border overflow-hidden p-2"  id="menu" onClick="mostrarDescrip();">
+                  <h5>City Tour Lima</h5>
+                  <hr>
+                  <p>Desde  $35</p>
+                </div>
+                <!--descripcion city tour lima-->
+                <div class="descripcion bg-primary p-2 mt-5" id="descripcion">
+                  <h3>Lima</h3>
+                  <p>Lima, la Ciudad de los Reyes alberga el centro histórico de la ciudad y una gran cantidad de construcciones pre inca, colonial y moderno.Nuestro tour te permitirá recorrer todos esos lugares y revivir la historia.</p>
+                  <p>Precio de Tour $35 <br> en compartido</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xl promocion">
+                <img src="img/lima_paracas.jpg" alt="" >
+                <div class="border overflow-hidden p-2" id="menu" onClick="mostrarDescrip2();">
+                  <h5>Lima Y Paracas</h5>
+                  <hr>
+                  <p>Desde  $350</p>
+                </div>
+                <!--descripcion city tour lima-->
+                <div class="descripcion bg-primary p-2 mt-5" id="descripcion2">
+                  <h3>LIMA PARACAS <br> (FULL DAY)</h3>
+                  <p>Disfrute de una emocionante aventura llena de adrenalina en una excursión de día completo desde Lima para visitar la ciudad de Paracas, donde podrán visitar las islas ballestas de la reserva de paracas.</p>
+                  <p>Precio de Tour $35 <br> en compartido</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xl promocion">
+                <img src="img/lima_paracas_ica.jpg" alt="" >
+                <div class="border overflow-hidden p-2" id="menu" onClick="mostrarDescrip3();">
+                  <h5 >Lima-Paracas e Ica <br></h5>
+                  <hr>
+                  <p>Desde  $400</p>
+                </div>
+                <!--descripcion city tour lima-->
+                <br>
+                <div class="descripcion bg-primary p-2 mt-5" id="descripcion3">
+                  <h3>LIMA PARACAS ICA <br>(FULL DAY)</h3>
+                  <p>Disfrute de una emocionante aventura llena de adrenalina y cultura en una excursión de día completo desde Lima para visitar la ciudad de Paracas, continuaremos el viaje a la HUACACHINA un oasis en el desierto costero, de ICA rodeado de miles de kilómetros de arena donde podrán hacer Sand Boarding, Finalizando la visita en los viñedos para degustar el famoso pisco y vinos que se elaboran en la región.</p>
+                  <p>Precio de Tour $35 <br> en compartido</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xl promocion">
+                <img src="img/lima_ica_cuzco.jpg" alt="">
+                <div class="border overflow-hidden p-2" id="menu" onClick="mostrarDescrip4();">
+                  <h5>Lima-Paracas-Ica y Nazca</h5>
+                  <hr>
+                  <p>Desde  $480 por dia.</p>
+                </div>
+                <br>
+                <!--descripcion Lima- paracas ica nazca-->
+                <div class="descripcion bg-primary p-2 mt-5" id="descripcion4">
+                  <h3>LIMA PARACAS ICA NAZCA 2D/1N</h3>
+                  <p>Disfrute de una emocionante aventura llena de adrenalina en una excursión de día completo desde Lima para visitar la ciudad de Paracas, el desierto costero, el oasis más espectacular de américa, el desierto de Huacachina, viñedos y las famosas figuras enigmáticas (líneas de nazca.)</p>
+                  <p>Precio de Tour $35 <br> en compartido</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Funciones para mostrar la descripcion del Tour-->
+    <script>
+      function mostrarDescrip(){
+        var descripcion=document.getElementById("descripcion");
+        descripcion.classList.toggle("descripcion-click");
+      }
+      function mostrarDescrip2(){
+        var descripcion=document.getElementById("descripcion2");
+        descripcion2.classList.toggle("descripcion-click");
+      }
+      function mostrarDescrip3(){
+        var descripcion=document.getElementById("descripcion3");
+        descripcion3.classList.toggle("descripcion-click");
+      }
+      function mostrarDescrip4(){
+        var descripcion=document.getElementById("descripcion4");
+        descripcion4.classList.toggle("descripcion-click");
+      }
+    </script>
+    <!--redes sociales-->
+    <section id="redes" class="p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="d-flex justify-content-center">
+              <a href=""><i class="ico fa-brands fa-facebook"></i></a>
+              <a href=""><i class="ico fa-brands fa-youtube"></i></a>
+              <a href=""><i class="ico fa-brands fa-linkedin-in"></i></a>
+              <a href=""><i class="ico fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="pie" class="p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 text-center">
+            <p>Direccion: Avenidad Jefferson 2023 frente a los Cervantes.</p>
+          </div>
+          <div class="col-lg-3 text-center">
+            <p>Cell:987654321 //<br>Cell: (01)123-4567</p>
+          </div>
+          <div class="col-lg-3 text-center">
+            <p>e-mail<br>jeffersonrc2508@gmail.com</p>
+          </div>
+          <div class="col-lg-3 text-center">
+            <i class="fa-solid fa-book-open"></i>
+            <p>Libro de Reclamaciones</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/6d2a1f09e7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

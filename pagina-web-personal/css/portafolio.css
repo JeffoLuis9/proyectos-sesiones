@@ -1,0 +1,22 @@
+.fondo-trabajos{
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+.trabajos{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.trabajo{
+    width: 260px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.img-trabajo{
+    width: 100%;
+    height: 150px;
+    display: block;
+}
